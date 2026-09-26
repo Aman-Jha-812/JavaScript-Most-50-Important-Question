@@ -1,0 +1,38 @@
+<!-- How would you handle form validation in real time adn show error messages dynimically? -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Name -->
+    <div>
+        <p style="color: rgb(210, 26, 26);" class="nameError"></p>
+        <label for="name">Name</label>
+        <input id="name" type="text" 
+        placeholder="Enter your name">
+    </div>
+    <!-- Email -->
+    <div style="margin-top: 10px;">
+        <p style="color: rgb(210, 26, 26);" class="EmailError"></p>
+        <label for="email">Email</label>
+
+        <input id="email" type="email" 
+        placeholder="Enter your eamil">
+    </div>
+    <!-- password -->
+    <div style="margin-top: 10px;" >
+        <p style="color: rgb(210, 26, 26);" class="PasswordError"></p>
+        <label for="password">Password</label>
+
+        <input id="password" type="text" 
+        placeholder="Enter your password">
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

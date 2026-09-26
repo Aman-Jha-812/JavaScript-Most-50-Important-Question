@@ -1,0 +1,35 @@
+<!-- How do you find the closest ancestor element that matches a selector? -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    #grand-parent{
+        padding:20px ;
+        background-color: red;
+    }
+    #parent{
+        padding:10px ;
+        background-color: green;
+    }
+    #child{
+        padding:5px ;
+        background-color:lightseagreen;
+    }
+  </style>
+  </head>
+  
+  <body>
+    <div class="parent" id="grand-parent">
+      Grand parent
+      <div class="parent" id="parent">
+        Parent
+        <div class="child" id="child">CHILD</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

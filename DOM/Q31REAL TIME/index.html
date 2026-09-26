@@ -1,0 +1,33 @@
+// How can you update the DOM based on user input in real time (e.g.., live preview of a form)?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" 
+        placeholder="Enter your name">
+    </div>
+
+    <div style="margin-top: 10px;">
+        <label for="email">Email</label>
+
+        <input id="email" type="email" 
+        placeholder="Enter your eamil">
+    </div>
+
+    <div class="livePreview">
+        <h3>Preview:</h3>
+        <p>Name: <span class="nameValue">Example</span></p>
+
+        <p>Email: <span class="emailValue">example@gmail.com</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
